@@ -1,0 +1,102 @@
+.resumeContainer {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.resumeTitle {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.resumeTitle::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #00aaff;
+  border-radius: 2px;
+  margin-top: 7px;
+}
+
+.resumeIntro {
+  color: #555;
+}
+
+.resumeContent {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.leftColumn {
+  flex: 1;
+}
+
+.rightColumn {
+  flex: 1;
+}
+
+.sectionTitle {
+  display: inline-block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+
+.summary, .experience, .education {
+  position: relative;
+  padding-left: 40px; 
+  margin-bottom: 30px;
+}
+
+/*the blue circle*/
+.summary::before, .experience::before,
+.education::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px; 
+  width: 14px;
+  height: 14px;
+  border: 2px solid #00aaff;
+  border-radius: 50%;
+}
+
+/*the blue vertical line*/
+.summary::after, .experience::after,
+.education::after {
+  content: "";
+  position: absolute;
+  left: 8px; 
+  top: 21px; 
+  width: 2px;
+  height: calc(100% + 0.35rem); 
+  background-color: #00aaff;
+}
+
+.summary h3, .experience h3, .education h3 {
+  font-weight: lighter;  
+}
+
+.italic {
+  font-style: italic;
+}
+
+.education, .experience {
+  margin-bottom: 20px;
+}
+
+.year {
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
