@@ -14,12 +14,12 @@ import image5 from './images/image5.png';
 import image7 from './images/image7.png';
 
 const projectsData = [
-    { id: 1, category: "APP", img: image1, link: "#", title: "Weather App" },
-    { id: 2, category: "WEBSITE", img: image5, link: "#", title: "Restaurant" },
-    { id: 3, category: "APP", img: image3, link: "#", title: "App 3" },
-    { id: 4, category: "WEBSITE", img: image7, link: "#", title: "Medcare Hospital" },
-    { id: 5, category: "APP", img: image2, link: "#", title: "Crypto App" },
-    { id: 6, category: "WEBSITE", img: image4, link: "#", title: "Health Care Clinic" },
+    { id: 1, category: "APP", img: image1, link: "#", title: "Weather App" , description: "A weather application that provides real-time weather updates and forecasts." },
+    { id: 2, category: "WEBSITE", img: image5, link: "#", title: "Restaurant" , description: "A restaurant website showcasing the menu, location, and contact information." },
+    { id: 3, category: "APP", img: image3, link: "#", title: "Task Manager", description: "An application that helps users manage their tasks and schedules." },
+    { id: 4, category: "WEBSITE", img: image7, link: "#", title: "Medcare Hospital" , description: "A hospital website providing information about services, doctors, and patient care." },
+    { id: 5, category: "APP", img: image2, link: "#", title: "Crypto App", description: "A cryptocurrency application that tracks prices and market trends." },
+    { id: 6, category: "WEBSITE", img: image4, link: "#", title: "Health Care Clinic", description: "A healthcare clinic website offering information about services, doctors, and patient resources." },
 ];
 
 export default function Portfolio() {
@@ -33,7 +33,7 @@ export default function Portfolio() {
     <div className="portfolioContainer">
         <h1 className="portfolioTitle">Portfolio</h1>
         <p className="portfolioDescription">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex soluta non odio consectetur voluptatibus. Rem reiciendis exercitationem velit eum numquam maiores voluptate! Cupiditate magnam praesentium qui distinctio maiores, perspiciatis voluptas?
+        Here are some of the projects I have worked on. Each project showcases my skills and creativity in web development and design.
         </p>
 
       {/* Category Filter */}
@@ -69,7 +69,7 @@ export default function Portfolio() {
                 <div className="icons">
                 <a href={project.img} target="_blank" ><FontAwesomeIcon icon={faMagnifyingGlassPlus} className="zoom"/></a>
                 <a href="#" target="_blank" ><FontAwesomeIcon icon={faLink} className="link"/></a></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>{project.description}</p>
             </div>
             </motion.div>
         ))}

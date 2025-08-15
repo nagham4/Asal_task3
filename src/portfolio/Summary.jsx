@@ -7,12 +7,11 @@ export default function Summary() {
       <div className="summary">
       <h3>BRANDON JOHNSON</h3>
       <p className="italic">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate voluptatibus eaque ea laborum dolor laudantium doloremque non numquam placeat aspernatur, ut perspiciatis ipsa deleniti excepturi fugit reprehenderit rerum quae!
-      </p>
+Creative and detail-oriented Frontend Developer passionate about building responsive, user-friendly web applications. Skilled in HTML, CSS, JavaScript, React, and modern UI frameworks. Strong focus on clean code, performance optimization, and delivering engaging user experiences. Always eager to learn new technologies, collaborate in teams, and bring ideas to life through design and code.      </p>
       <ul>
-        <li>Portland par 127, Orlando, FL</li>
-        <li>(123) 456-7891</li>
-        <li>alice.barkley@example.com</li>
+        <li> street, Jenin</li>
+        <li>0568046524</li>
+        <li>Nagham.Alkhtoob@gmail.com</li>
       </ul></div>
     </div>
   );

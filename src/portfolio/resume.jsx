@@ -9,7 +9,7 @@ export default function Resume() {
     <div className="resumeContainer">
       <h1 className="resumeTitle">Resume</h1>
       <p className="resumeIntro">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptatem non est provident, temporibus praesentium in corrupti nemo obcaecati modi esse explicabo asperiores, laboriosam iste! Ad provident facere labore exercitationem!
+        Below is a summary of my professional experience, education, and skills. I am passionate about continuous learning and growth in my career.
       </p>
 
       <div className="resumeContent">

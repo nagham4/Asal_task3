@@ -3,12 +3,12 @@ import "./skills.css";
 
 
 const skillsData = [
-  { name: "HTML", level: 100 },
+  { name: "HTML5, CSS3, JavaScript (ES6+)", level: 100 },
   { name: "PHP", level: 80 },
-  { name: "CSS", level: 90 },
-  { name: "WordPress/CMS", level: 90 },
-  { name: "JavaScript", level: 75 },
-  { name: "Photoshop", level: 55 },
+  { name: "TypeScript", level: 90 },
+  { name: "React.js", level: 90 },
+  { name: "Tailwind CSS", level: 80 },
+  { name: "Figma", level: 70 },
 ];
 
 export default function Skills() {
@@ -16,7 +16,7 @@ export default function Skills() {
     <div className="skillsContainer">
       <h1 className="skillsHeading">Skills</h1>
       <p className="skillsText">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempore soluta possimus.
+        Here are some of the skills I have acquired over the years. I am always eager to learn more and improve my abilities.
       </p>
 
       <div className="skillsGrid">
